@@ -40,7 +40,7 @@ Why is it dangerous to run `DELETE FROM books` without a `WHERE` clause? What do
 
 **Your answer:**
 
----
+It is dangerous to run `DELETE FROM books` because `DELETE` without a `WHERE` clause deletes every row in a table. The `WHERE` clause specifies which rows you want to delete from a table.
 
 ## Question 5
 
