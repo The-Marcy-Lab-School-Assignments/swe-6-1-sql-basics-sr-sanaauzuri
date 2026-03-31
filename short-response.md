@@ -47,3 +47,5 @@ Why is it dangerous to run `DELETE FROM books` without a `WHERE` clause? What do
 What is the difference between `ORDER BY` and `LIMIT`? Could you use one without the other? Give an example to support your answer.
 
 **Your answer:**
+`ORDER BY` sorts results by columns in either an **ascending(default)** or **descending** order, while `LIMIT` returns a specified number of rows, without sorting. You can use one without the other. For instance, `SELECT * FROM books ORDER BY year DESC` returns all books sorted from oldest to newest with no row limit.  On the other hand  
+`SELECT * FROM books LIMIT 5` return the first 5 rows of books in whatever order the database uses.
